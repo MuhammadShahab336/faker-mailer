@@ -10833,6 +10833,15 @@ body {
   border-style: dashed !important;
 }
 
+.image-zoom {
+  transition: all 0.5s ease-in-out;
+}
+
+.image-zoom:hover img {
+  transform: scale(1.4);
+  transition: all 0.5s ease-in-out;
+}
+
 .input-focus {
   transition: all 0.5s ease-in-out;
 }
